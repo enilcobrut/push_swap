@@ -1,4 +1,3 @@
-# push_swap
 
 # Overview
 Push_Swap is an algorithmic challenge designed to test the efficiency and optimization of sorting algorithms. The core concept revolves around sorting a set of numbers using two stacks, named a and b, with a specific set of allowed operations. The primary goal is to sort the stack a in ascending order with the least number of operations.

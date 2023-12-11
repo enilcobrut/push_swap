@@ -15,10 +15,8 @@ Operations:
 Various operations (sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb, rrr) are used to manipulate the stacks.
 Running the Program
 To run the program, compile the source files using the provided Makefile, and then execute push_swap with a list of integers:
+![Screenshot 2023-12-11 at 16 08 41](https://github.com/enilcobrut/push_swap/assets/102542469/927b25e9-dd4c-43ef-b4a2-da4c54cfa0df)
 
-bash
-Copy code
-$> ./push_swap 4 3 2 1
 The program will output a series of operations that, when applied, will sort the numbers in stack a.
 
 Error Handling

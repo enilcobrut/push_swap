@@ -10,20 +10,20 @@
 #                                                                              #
 # **************************************************************************** #
 
-SRC 	= 	lst.c \
-			main.c \
-			op1.c \
-			op2.c \
-			op3.c \
-			push_swap_utils.c \
-			set_top.c \
-			sort.c \
-			ft_printf.c \
-			save_rotations.c \
-			save_rotations1.c \
-			ft_split.c \
-			parcing.c \
-			little_algo.c \
+SRC 	= 	src/operation/op1.c \
+			src/operation/op2.c \
+			src/operation/op3.c \
+			src/utils/ft_printf.c \
+			src/utils/ft_split.c \
+			src/utils/push_swap_utils.c \
+			src/utils_algo/save_rotations.c \
+			src/utils_algo/save_rotations1.c \
+			src/utils_algo/set_top.c \
+			src/little_algo.c \
+			src/main.c \
+		 	src/lst.c \
+			src/sort.c \
+			src/parcing.c \
 
 OBJS 	=	${SRC:.c=.o}
 
